@@ -1,0 +1,9 @@
+# ECE-047 commands — process in file order
+LOAD_PARTS|parts.csv
+LOAD_BOMS|boms.csv
+LOAD_VENDORS|vendors.csv|vendor_offers.csv
+COST|PRD-A|1000|21
+COST|PRD-B|250|7
+COST|PRD-C|5000|30
+COST|PRD-A|1|45
+COST|PRD-C|100|7
